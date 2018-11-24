@@ -21,8 +21,11 @@
   },
   "bugs": "https://github.com/zacanger/shipe/issues",
   "keywords": [
-    "",
-    "shipe"
+    "pipe",
+    "pipeline",
+    "shell",
+    "stdin",
+    "stdout"
   ],
   "dependencies": {},
   "devDependencies": {},
