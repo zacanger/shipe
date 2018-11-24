@@ -1,0 +1,32 @@
+{
+  "name": "shipe",
+  "description": "shipe",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "https://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/shipe#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/shipe.git"
+  },
+  "bugs": "https://github.com/zacanger/shipe/issues",
+  "keywords": [
+    "",
+    "shipe"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
