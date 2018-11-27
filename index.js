@@ -7,15 +7,19 @@ const handle = (handlers) => {
   })
 
   process.stdout.on('error', function errorHandler (err) {
-    if (err.code === 'EPIPE') return process.exit()
+    if (err.code === 'EPIPE') {
+      // eslint-disable-next-line no-process-exit
+      return process.exit()
+    }
     if (process.stdout.listeners('error').length <= 1) {
       process.stdout.removeAllListeners()
       process.stdout.emit('error', err)
-      process.stdout.on('error', errorHandler )
+      process.stdout.on('error', errorHandler)
     }
   })
 }
 
 if (!module.parent) {
+  // eslint-disable-next-line no-eval
   handle(eval(process.argv[2]) || ((a) => a))
 }
