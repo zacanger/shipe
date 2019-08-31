@@ -21,6 +21,4 @@ if
 ~ 
 ```
 
-## License
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
