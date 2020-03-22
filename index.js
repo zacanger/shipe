@@ -6,7 +6,7 @@ const handle = (handlers) => {
     process.stdout.write(handlers(d.toString()))
   })
 
-  process.stdout.on('error', function errorHandler (err) {
+  process.stdout.on('error', function errorHandler(err) {
     if (err.code === 'EPIPE') {
       // eslint-disable-next-line no-process-exit
       return process.exit()
