@@ -19,7 +19,7 @@ More complex example:
 ```shell
 ~ echo .bashrc | npx shipe "a=>{const b=require('fs').readFileSync(a.trim(),'utf8').split('\n');return b[b.length - 2]}" | rev
 npx: installed 1 in 1.057s
-if
+"nib/XIFERP_N$:"=+HTAP || ]] *":nib/XIFERP_N$:"* == :HTAP$: [[
 ~ 
 ```
 
