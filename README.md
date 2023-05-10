@@ -2,6 +2,8 @@
 
 Use Node in Shell pipelines
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Installation
